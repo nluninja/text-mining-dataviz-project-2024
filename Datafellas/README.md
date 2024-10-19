@@ -2,8 +2,8 @@
 The dataset is generated using financial documents obtained from U.S. Security and Exchange Commission filings.
 
 ## Entries
-* file2.ann: 41010 entries
-* file1.ann:  13246 entries
+* _file1.ann_:  13246 entries
+* _file2.ann_: 41010 entries
 
 
 ## File Format
@@ -17,7 +17,7 @@ IOB2
 |ner_tags| a classification label for named entity|
 
 
-## Labels
+| Labels |
 | ------ |
 |PER
 |LOC

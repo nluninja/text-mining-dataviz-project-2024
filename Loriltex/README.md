@@ -1,4 +1,4 @@
-# dataset description
+# Dataset description
 This dataset focuses on entity and relationship extraction relevant to somebody operating in the role of a defence and security intelligence analyst;The dataset comprised task-specific documents focused on the topic of the conflict in Syria and Iraq.
 
 ## Entries
@@ -13,7 +13,8 @@ IOB2
 |token | a string feature |
 |ner_tag| a classification label |
 
-## Labels
+
+| Labels |
 |-------------------|
 |DocumentReference
 |Location

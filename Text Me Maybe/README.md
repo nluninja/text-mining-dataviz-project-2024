@@ -1,19 +1,27 @@
-# dataset description
+# Dataset description
 
 the dataset contains DBPedia manually annotated collection of texts.
 
 ## Entries
 
-1428 entries
+* _file1.ann_: 1428 entries
 
 
 ## Format
-
 
 | Column | Description       |
 | ----- | ------------------ |
 |token | a string feature |
 |ner_tag| a classification label, |
+
+
+| Label |
+| ------ |
+| LOC
+| PER
+| ORG
+| MISC
+
 
 ## Example
 <pre>

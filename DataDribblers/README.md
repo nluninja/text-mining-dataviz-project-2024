@@ -14,6 +14,7 @@ IOB2
 |id | a string feature. |
 |ner_tags| a list of classification labels|
 
+
 | Labels |
 | ------ |
 | person
