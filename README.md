@@ -1,6 +1,6 @@
 # Project track A.Y. 2024-2025 DATA VISUALIZATION & TEXT MINING
 
-Build a text processing pipeline that performs a text mining on a given corpus applying all the steps we saw during the lesson
+Build a text processing pipeline that performs a text mining on a given corpus applying all the steps we saw during the lesson: all the assigned datasets refer to Entity Extraction use cases, that can be solved applying a text classification approach at token level (Token-based Classification)
 
 The project MUST show:
 *	Data Exploratory Analysis (DEA)
