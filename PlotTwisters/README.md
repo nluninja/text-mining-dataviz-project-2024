@@ -1,11 +1,11 @@
 # Dataset description
 
-the dataset contains DBPedia manually annotated collection of texts.
+The dataset contains tweets collected over stratified times, places and social uses. 
 
 ## Entries
 
-* _file1.ann_: 1428 entries
-
+* _file5.ann_: 34063 entries
+* _file6.ann_: 29482 entries
 
 ## Format
 
@@ -38,6 +38,3 @@ l	O
 .	O
 . O
 </pre>
-
-
-
