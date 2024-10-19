@@ -1,43 +1,32 @@
-# dataset description
+# Dataset description
 Mixed dataset built for research purposes.
 
 ## Entries
-* file1.ann: 44111  entries
-* file2.ann:  18236 entries
+* _file1.ann_: 44111  entries
+* _file2.ann_:  18236 entries
 
 ## File Format
-text - IOB2
+IOB2
 
 | Column | Description       |
 | ----- | ------------------ |
 |token | a string feature |
 |ner_tag| a classification label - 23 classes |
 
-## Labels
-<pre>
-B-person
-I-person
-B-place
-I-place
-B-organization
-I-organization
-B-quantity
-I-quantity
-B-time
-I-time
-B-event
-I-event
-B-abstract
-I-abstract
-B-substance
-I-substance
-B-object
-I-object
-B-animal
-I-animal
-B-plant
-I-plant
-</pre>
+| Labels |
+| -------- |
+| person
+| place
+| organization
+| quantity
+| time
+| event
+| abstract
+|substance
+| object
+| animal
+| plant
+
 
 ## Example
 <pre>

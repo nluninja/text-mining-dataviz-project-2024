@@ -1,16 +1,43 @@
-[entities]
+# Dataset description
 
-entities = LOC
-           ORG
-           PER
+the dataset contains DBPedia manually annotated collection of texts.
 
-[IOB-format]
+## Entries
 
-IOB = IOB2
+* _file1.ann_: 1428 entries
 
-[file-settings]
 
-sep = tab
-iob_pos = 1
-word_pos = 0
-pos_pos = none
+## Format
+
+| Column | Description       |
+| ----- | ------------------ |
+|token | a string feature |
+|ner_tag| a classification label, |
+
+
+| Label |
+| ------ |
+| LOC
+| PER
+| ORG
+| MISC
+
+
+## Example
+<pre>
+middle	O
+aged	O
+man	O
+band	O
+playing	O
+blink	B-ORG
+182	I-ORG
+.	I-ORG
+l0	O
+l	O
+.	O
+. O
+</pre>
+
+
+
