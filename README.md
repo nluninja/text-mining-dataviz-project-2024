@@ -3,22 +3,22 @@
 The team has to build a text processing pipeline that performs a text classification on the given corpus: all the assigned datasets refer to Entity Extraction use cases, that can be solved applying a text classification approach at token level (Token-based Classification)
 
 The project MUST show:
-*	Data Exploratory Analysis (DEA)
+*	_Data Exploratory Analysis (DEA)_
     * Data preparation, cleaning: to clean the data from the raw dataset provided.
     * Exploratory Data Analysis using Data Visualization tools to show data variables from statistical distribution (frequency, coverage) to linguistic information (pos, depparse, lemmas)
     * LDA or NMF can be used, if needed, for studying the text distribution.
 
-* Neural Network approach 
+* _Neural Network approach_ 
   * Use one Neural Network type to classify the data (feed forward, RNN, LSTM, BiLSTM , GRU)
   * Show metrics for the implementation strategy 
 
-* Transformer Based Approach
+* _Transformer-based Approach_
   * Use a Transformer based / Language Model model to classify the data (*BERT)
   * Show metrics for the implementation strategy 
 
-* A comparison about the models
+* _A comparison about the models_
 
-* Dashboard 
+* _Dashboard_ 
   * the project MUST implement an interactive DashBoard that combines
     * the Data Exploratory Analysis with dynamic charts about the dataset
     * the metrics about the different strategies applied
