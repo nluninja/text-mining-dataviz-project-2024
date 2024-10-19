@@ -1,28 +1,43 @@
-# Georgetown University Multilayer Corpus for NER | Entity Extraction
-## Description
-The GUM corpus was collected and annotated at Georgetown University.  
-
-For more information, see the [LICENSE](https://corpling.uis.georgetown.edu/gum),
-and the following publication:
-_Zeldes, Amir (2016) "The GUM Corpus: Creating Multilayer Resources in the
-Classroom". Language Resources and Evaluation._  
-
-This corpus version has been modified from the original one to focus on NER about a set of 22 classes, and transformed into IOB2/CoNLL like format.
+# dataset description
+Mixed dataset built for research purposes.
 
 ## Entries
-train: 44111  entries | test:  18236 entries
-
-## URL
-https://github.com/amir-zeldes/gum
+* file1.ann: 44111  entries
+* file2.ann:  18236 entries
 
 ## File Format
-text - CoNLL - IOB2
+text - IOB2
 
 | Column | Description       |
 | ----- | ------------------ |
 |token | a string feature |
-|ner_tag| a classification label, [23 classes](./data/classes.txt) |
+|ner_tag| a classification label - 23 classes |
 
+## Labels
+<pre>
+B-person
+I-person
+B-place
+I-place
+B-organization
+I-organization
+B-quantity
+I-quantity
+B-time
+I-time
+B-event
+I-event
+B-abstract
+I-abstract
+B-substance
+I-substance
+B-object
+I-object
+B-animal
+I-animal
+B-plant
+I-plant
+</pre>
 
 ## Example
 <pre>

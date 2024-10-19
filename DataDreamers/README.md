@@ -1,12 +1,12 @@
-# dataset description
+# Dataset description
 This dataset consists of abstracts and full-text biomedical papers.
 
 ## Entries
-* file1.ann: 71697 entries
-* file2.ann:  45939 entries
+* _file1.ann_: 71697 entries
+* _file2.ann_:  45939 entries
 
 ## File Format
-IOB2 
+IOB2
 
 | Column | Description        |
 | ----- | ------------------ |
@@ -16,7 +16,7 @@ IOB2
 |ner_tags| a list of classification labels|
 
 
-| Labels |
+|Labels|
 | ------ |
 |Anatomical_system 
 |Cell

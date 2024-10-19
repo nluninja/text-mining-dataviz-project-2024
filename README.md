@@ -2,7 +2,7 @@
 
 Build a text processing pipeline that performs a text mining on a given corpus applying all the steps we saw during the lesson
 
-The project must show:
+The project MUST show:
 *	Data Exploratory Analysis
     * Data preparation, cleaning: to clean the data from the raw dataset provided.
     * Exploratory Data Analysis using Data Visualization tools to show data variables from statistical distribution to linguistic information
@@ -19,13 +19,13 @@ The project must show:
 
 * Compare the models
 
-The project must be developed on Jupyter or Colab, and in a customer-ready form that means
+The project MUST be developed on Jupyter or Colab, and in a customer-ready form that means
 * well-documented
 * with descriptions about all the steps 
 * all the materials to reproduce them such as data and models.
 
-# Datasets
+## Datasets
 You can find the dataset into your team folder, available in this repository.
 
-# Schedule
+## Schedule
 As all the exams are on Thursdays, the project as to be delivered by previous Tuesday 8pm CET.

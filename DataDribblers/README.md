@@ -1,21 +1,18 @@
-# dataset description
+# Dataset description
 The dataset contains text from Twitter, Stack Overflow responses, YouTube comments, and Reddit comments.
 
-
 ## Entries
-* file1.ann: 62730 entries  
-* file2.ann: 23394 entries 
-* file3.ann: 15733 entries
-
+* _file1.ann_: 62730 entries  
+* _file2.ann_: 23394 entries
+* _file3.ann_: 15733 entries
 
 ## File Format
-IOB2 
+IOB2
 
 | Column | Description        |
 | ----- | ------------------ |
 |id | a string feature. |
 |ner_tags| a list of classification labels|
-
 
 | Labels |
 | ------ |
@@ -25,7 +22,6 @@ IOB2
 | corporation
 | product
 | creative-work
-
 
 ## Example
 <pre>
